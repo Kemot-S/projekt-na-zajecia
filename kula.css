@@ -1,5 +1,5 @@
 #circle {
-    display: block;
+    display: none;
     background: red;
     border-radius: 50%;
     height: 300px;
@@ -17,3 +17,17 @@
       66% {background-color: blue; left: 50%; top: 30%;}
       100% {background-color: red; left: 30%; top: 30%;}
     }
+
+#hide {
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 45%;
+}
+
+#show {
+  display: block;
+  position: absolute;
+  left: 20%;
+  top: 45%;
+}
